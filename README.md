@@ -13,6 +13,6 @@ The element:
 
 The filename: not-my-call.mp3
 
-If you add a sound from a new person to the collection, you should also "register" the person in the `colors` array with a color of your choice.
+If you add a sound from a new person to the collection, you should also "register" the person in the `colors` object with a color of your choice.
 
 That's basically it.
