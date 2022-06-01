@@ -1,4 +1,4 @@
-# Hot to add sounds
+# How to add sounds
 
 You can make pull requests with new sounds anytime. This is how you do it:
 
