@@ -13,6 +13,14 @@ h1 {
     margin: 1em 0 0;
 }
 
+a {
+    color: #242424;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 #wrapper {
     margin: auto;
     max-width: 60em;
