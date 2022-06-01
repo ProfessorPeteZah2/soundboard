@@ -13,15 +13,15 @@ sounds.forEach(function (sound) {
 buttons.appendChild(fragment);
 
 function createItem(sound, person) {
-    const item             = createElement("div", { className: "item" });
-    const buttonWrapper    = createElement("div", { className: "button" });
-    const buttonBackground = createElement("div", { className: "button-background" });
-    const button           = document.createElement("button");
-    const label            = createElement("div", {
+    const item              = createElement("div", { className: "item" });
+    const buttonWrapper     = createElement("div", { className: "button" });
+    const buttonBackground  = createElement("div", { className: "button-background" });
+    const button            = document.createElement("button");
+    const label             = createElement("div", {
         className: "label",
         innerText: sound
     });
-    button.dataset.fileName   = getFilename(sound);
+    button.dataset.fileName = getFilename(sound);
     buttonBackground.style.backgroundColor = colors[person];
     button.addEventListener("click", handleButtonClick);
     appendChildren(buttonWrapper, buttonBackground, button);
